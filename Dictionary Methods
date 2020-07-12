@@ -1,0 +1,11 @@
+dictionary={
+'Name': 'Reena',
+'basket':[1,2,3,4,5],
+'greet':'hello'
+
+}
+
+dictionary2= dictionary.copy()
+print(dictionary.pop('greet'))
+print(dictionary)
+print(dictionary2)
